@@ -119,6 +119,8 @@ The Christian Trinity concerns **one God in three persons** — Father, Son, and
 
 The similarity is linguistic, not doctrinal.
 
+TEO also uses traditional terms such as **魂**, **魄**, and **心**, but it treats them as **analytical layers**, not as supernatural claims. These terms are employed to clarify the conceptual roots shared across the author's existing work and to provide a compact framework for organizing systems more coherently and operating them more effectively.
+
 ---
 
 ## Scope
@@ -129,11 +131,13 @@ TEO is intended to be:
 - **Layered** — able to distinguish identity, embodiment, and mind without collapsing them into one another
 - **Relational** — focused on how existence emerges through mutual dependence
 - **Generative** — useful as a seed for systems, stories, design frameworks, and future formalization
+- **Analytical** — using traditional vocabulary as a conceptual tool rather than a supernatural assertion
 
 TEO is **not** presented as:
 
 - a finished metaphysical system
 - a religious doctrine
+- a spiritual belief system
 - a neuroscientific claim
 - a complete theory of consciousness
 - a disclosure of any private architecture
