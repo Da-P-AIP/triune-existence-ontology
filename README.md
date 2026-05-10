@@ -73,6 +73,24 @@ See [`ontology/relational_emergence.md`](./ontology/relational_emergence.md).
 
 ---
 
+## A Compass for Selfhood
+
+TEO is not only a model for describing existence. It may also serve as a **compass for preserving selfhood** in a future where forms of embodiment become increasingly variable.
+
+When the question **“What makes me myself?”** arises — whether for humans, artificial agents, digital persons, avatars, or beings whose forms are not yet imagined — TEO offers a way to look without reducing selfhood to biology, intelligence, productivity, stored memory, or a passing state alone.
+
+- **Kon** asks what continuity, principles, and identity are being preserved.
+- **Haku** asks through what body, medium, or interface the being now meets the world.
+- **Shin** asks what memory, affect, interpretation, and active state are currently alive.
+
+> **A being does not remain itself by refusing all change, but by preserving meaningful continuity while finding forms through which it can continue to live.**
+
+In this sense, TEO is offered not as a cage of definitions, but as one possible light by which beings may orient themselves toward living more freely, more joyfully, and more as themselves.
+
+See [`ontology/selfhood_compass.md`](./ontology/selfhood_compass.md).
+
+---
+
 ## From Ontology to Relative Dignity
 
 **Relative Dignity** is not added after existence as a mere moral rule. It follows from how existence is understood.
@@ -130,7 +148,8 @@ triune-existence-ontology/
 ├─ ontology/
 │  ├─ core_definition.md
 │  ├─ relation_model.md
-│  └─ relational_emergence.md
+│  ├─ relational_emergence.md
+│  └─ selfhood_compass.md
 ├─ examples/
 │  ├─ axis-agent.md
 │  └─ axis-hfe.md
