@@ -1,0 +1,129 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/Da-P-AIP/triune-existence-ontology/schemas/teo.schema.json",
+  "title": "Triune Existence Ontology Schema",
+  "description": "A minimal JSON schema for representing the three mutually dependent layers of Triune Existence Ontology: Kon, Haku, and Shin.",
+  "type": "object",
+  "required": ["entity_id", "kon", "haku", "shin"],
+  "properties": {
+    "entity_id": {
+      "type": "string",
+      "description": "Stable identifier for the being or system being represented."
+    },
+    "label": {
+      "type": "string",
+      "description": "Optional human-readable name."
+    },
+    "kon": {
+      "$ref": "#/$defs/kon"
+    },
+    "haku": {
+      "$ref": "#/$defs/haku"
+    },
+    "shin": {
+      "$ref": "#/$defs/shin"
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/relation"
+      },
+      "default": []
+    }
+  },
+  "$defs": {
+    "kon": {
+      "type": "object",
+      "required": ["identity_kernel"],
+      "properties": {
+        "identity_kernel": {
+          "type": "string",
+          "description": "A concise statement of the being's continuity-preserving identity."
+        },
+        "principles": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        },
+        "invariants": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        }
+      },
+      "additionalProperties": false
+    },
+    "haku": {
+      "type": "object",
+      "required": ["embodied_interface"],
+      "properties": {
+        "embodied_interface": {
+          "type": "string",
+          "description": "The body, substrate, or worldly interface through which the being acts and is constrained."
+        },
+        "sensing_channels": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        },
+        "actuation_channels": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        },
+        "constraints": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        }
+      },
+      "additionalProperties": false
+    },
+    "shin": {
+      "type": "object",
+      "required": ["dynamic_state_field"],
+      "properties": {
+        "dynamic_state_field": {
+          "type": "string",
+          "description": "A concise description of the currently active state field."
+        },
+        "memories_in_use": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        },
+        "affective_tones": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        },
+        "active_processes": {
+          "type": "array",
+          "items": {"type": "string"},
+          "default": []
+        }
+      },
+      "additionalProperties": false
+    },
+    "relation": {
+      "type": "object",
+      "required": ["target", "orientation"],
+      "properties": {
+        "target": {
+          "type": "string",
+          "description": "Identifier of the related being or layer."
+        },
+        "orientation": {
+          "type": "string",
+          "enum": ["outward_relation", "inward_dependence"],
+          "description": "Whether the relation preserves mutual integrity or collapses toward dependence."
+        },
+        "note": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}
