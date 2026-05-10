@@ -1,0 +1,22 @@
+flowchart TB
+    E[Existence]
+
+    K[Kon / 魂<br/>Identity Kernel]
+    H[Haku / 魄<br/>Embodied Interface]
+    S[Shin / 心<br/>Dynamic State Field]
+
+    K <--> H
+    H <--> S
+    S <--> K
+
+    K --> E
+    H --> E
+    S --> E
+
+    E:::core
+    K:::layer
+    H:::layer
+    S:::layer
+
+    classDef core stroke-width:2px;
+    classDef layer stroke-width:1px;
