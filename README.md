@@ -149,6 +149,9 @@ TEO is **not** presented as:
 ```text
 triune-existence-ontology/
 ├─ README.md
+├─ CITATION.cff
+├─ LICENSE.md
+├─ .zenodo.json
 ├─ ontology/
 │  ├─ core_definition.md
 │  ├─ relation_model.md
@@ -159,8 +162,10 @@ triune-existence-ontology/
 │  └─ axis-hfe.md
 ├─ schemas/
 │  └─ teo.schema.json
-└─ diagrams/
-   └─ triune_structure.mmd
+├─ diagrams/
+│  └─ triune_structure.mmd
+└─ docs/
+   └─ zenodo-submission-checklist.md
 ```
 
 ---
@@ -187,3 +192,11 @@ GitHub: [Da-P-AIP](https://github.com/Da-P-AIP)
 If you refer to this framework, please cite it as:
 
 > Da-P. *Triune Existence Ontology*. v0.1.0. GitHub repository, 2026.
+
+Structured citation metadata is provided in [`CITATION.cff`](./CITATION.cff). Zenodo release metadata is provided in [`.zenodo.json`](./.zenodo.json).
+
+---
+
+## License
+
+This repository is licensed under Creative Commons Attribution 4.0 International (`CC-BY-4.0`) unless otherwise noted. See [`LICENSE.md`](./LICENSE.md).

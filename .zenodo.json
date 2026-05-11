@@ -1,0 +1,29 @@
+{
+  "title": "Triune Existence Ontology",
+  "upload_type": "software",
+  "description": "Triune Existence Ontology is a minimal ontology of existence based on three mutually dependent layers: Kon, Haku, and Shin. It provides a compact public framework for describing identity, embodiment, mind, relation, dependence, relational emergence, and relative dignity across human understanding, AI architecture, organizational design, and layered systems.",
+  "creators": [
+    {
+      "name": "Da-P"
+    }
+  ],
+  "keywords": [
+    "triune existence ontology",
+    "ontology",
+    "Kon",
+    "Haku",
+    "Shin",
+    "human-AI systems",
+    "relative dignity"
+  ],
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/Da-P-AIP/triune-existence-ontology",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
+

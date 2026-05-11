@@ -1,0 +1,27 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Local and private working files
+private/
+draft-private/
+notes-private/
+*.local.*
+*.secret.*
+.env
+.env.*
+
+# Generated files
+dist/
+build/
+out/
+tmp/
+temp/
+
+# Local browser captures and exports
+*.mhtml
+*.har
+

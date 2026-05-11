@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using the metadata from this file."
+title: "Triune Existence Ontology"
+type: generic
+version: "0.1.0"
+authors:
+  - name: "Da-P"
+repository-code: "https://github.com/Da-P-AIP/triune-existence-ontology"
+abstract: "Triune Existence Ontology is a minimal ontology of existence based on three mutually dependent layers: Kon, Haku, and Shin."
+keywords:
+  - "triune existence ontology"
+  - "ontology"
+  - "Kon"
+  - "Haku"
+  - "Shin"
+  - "human-AI systems"
+  - "relative dignity"
+license: "CC-BY-4.0"
+
