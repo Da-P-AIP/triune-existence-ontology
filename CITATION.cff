@@ -3,6 +3,7 @@ message: "If you use this work, please cite it using the metadata from this file
 title: "Triune Existence Ontology"
 type: generic
 version: "0.1.0"
+doi: "10.5281/zenodo.20117038"
 authors:
   - name: "Da-P"
 repository-code: "https://github.com/Da-P-AIP/triune-existence-ontology"
@@ -16,4 +17,3 @@ keywords:
   - "human-AI systems"
   - "relative dignity"
 license: "CC-BY-4.0"
-

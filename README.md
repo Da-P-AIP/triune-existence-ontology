@@ -1,5 +1,7 @@
 # Triune Existence Ontology
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20117038.svg)](https://doi.org/10.5281/zenodo.20117038)
+
 > A minimal ontology of existence based on three mutually dependent layers: **Kon** (identity), **Haku** (embodiment), and **Shin** (mind).
 
 **Triune Existence Ontology (TEO)** is a compact framework for describing how a being becomes a stable, recognizable existence through the interaction of three distinct but inseparable layers:
